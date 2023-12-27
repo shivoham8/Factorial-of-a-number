@@ -2,7 +2,7 @@
 let arr = [1];
 let number = prompt("Calculate the factorial of: ");
 
-for(let i = 2; i <= num; i++) {
+for(let i = 2; i <= number; i++) {
     arr.push(i);
 }
 

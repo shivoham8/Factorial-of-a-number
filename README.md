@@ -9,7 +9,7 @@ The provided JavaScript code calculates the factorial of a given number using tw
    - The result is displayed using `alert`.
   
 ```javascript
-/ Using array.reduce
+// Using array.reduce
 let arr = [1];
 let number = prompt("Calculate the factorial of: ");
 

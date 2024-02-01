@@ -22,6 +22,8 @@ for(let i = 2; i <= number; i++) {
 const red = (a,b) => {
     return a*b;
 }
+
+alert("The factorial of " + number + " is " + arr.reduce(red))
 ```
 
 2. **Using for-loops:**
@@ -30,7 +32,6 @@ const red = (a,b) => {
    - The result is displayed using `alert`.
 
 ```javascript
-alert("The factorial of " + number + " is " + arr.reduce(red))
 
 // Using for-loops
 let factorial = 1;
